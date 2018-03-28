@@ -1,0 +1,13 @@
+java.*.*                                                                                              
+sun.*.*
+javax.*.*
+com.sun.*.*
+org.apache.*.*   
+org.codehaus.*.* 
+org.eclipse.*.*  
+org.slf4j.*.*    
+org.sonatype.*.*
+com.google.inject.*.*
+com.google.common.*.*
+junit.framework.*
+org.junit.*.*
