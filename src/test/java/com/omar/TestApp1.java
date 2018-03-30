@@ -116,6 +116,8 @@ public class TestApp1{
 */		
 	@Test
 	public void testPrintHelloWorld1() {
+	
+		/*
 		Vector<Integer> v = new Vector<Integer>();
          	v.add(1);
           	v.add(2);
@@ -130,6 +132,8 @@ public class TestApp1{
           	}
 		//System.out.println("The assertion is true");
 		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
+		*/
+		System.out.println("Hello World");
 	}
 /*	
 	@Test
