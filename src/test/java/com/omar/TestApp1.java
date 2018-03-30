@@ -129,7 +129,7 @@ public class TestApp1{
         	      sum += (Integer)i.next();
           	}
 		//System.out.println("The assertion is true");
-		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
+		TestCase.assertEquals(App.getHelloWorld(), "Hello World1");
 	}
 /*	
 	@Test
