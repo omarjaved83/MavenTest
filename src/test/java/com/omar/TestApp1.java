@@ -135,7 +135,7 @@ public class TestApp1{
 		
 
 	}
-/*	
+	
 	@Test
 	public void testPrintHelloWorld2() {
 		Vector<Integer> v = new Vector<Integer>();
@@ -153,7 +153,7 @@ public class TestApp1{
 		//System.out.println("The assertion is true");
 		TestCase.assertEquals(App.getHelloWorld(), "Hello World2");
 	}
-	
+/*	
 	@Test
 	public void testFileLenght(){
 	
