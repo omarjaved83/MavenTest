@@ -115,22 +115,20 @@ public class TestApp1{
 		
 */		
 	@Test
-	public void testPrintHelloWorld1() {
+	public void testUnsafeIterator() {
 	
+		Set<Integer> testSet = new HashSet<Integer>(); 
+        	for(int i = 0; i < 10; ++i){
+           	 	testSet.add(new Integer(i));
+        	}
+        	Iterator i = testSet.iterator();
+        
+       		int output = 0; 
+        	for(int j = 0; j < 10 && i.hasNext(); ++j){
+            		output += (Integer)i.next();
+            		testSet.add(new Integer(j));
+       		}
 		
-		Vector<Integer> v = new Vector<Integer>();
-         	v.add(1);
-          	v.add(2);
-          	v.add(4);
-          	v.add(8);
-  
-	        Iterator i = v.iterator();
-        	int sum = 0;
-  
- 	         while(i.hasNext()){
-        	      sum += (Integer)i.next();
-          	}
-		//System.out.println("The assertion is true");
 		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 		
 
