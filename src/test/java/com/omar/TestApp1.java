@@ -16,7 +16,7 @@ public class TestApp1{
 		
 		
 		
-/*
+
 	public void testArrayDeque_UnsafeIterator(){
 	 	  Math.max(1,2);	
 		  ArrayDeque<Integer> q = new ArrayDeque<Integer>();
@@ -113,7 +113,7 @@ public class TestApp1{
         	if(true) throw new IllegalStateException("Already connected");
     	}	
 		
-*/		
+		
 	@Test
 	public void testUnsafeIterator() {
 	
