@@ -179,7 +179,7 @@ public class TestApp1{
 	}
 	
 	@Test
-	public void testUnsafeIterator(){
+	public void testUnsafeIterator1(){
 	
 	Set<Integer> testSet = new HashSet<Integer>(); 
         for(int i = 0; i < 10; ++i){
