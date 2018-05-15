@@ -100,7 +100,7 @@ public class TestApp1{
 	
 	
 
-*/	
+	
 	@Test
    	public void testGetClassByAnnotation() {
         int x = 1/0;
@@ -177,7 +177,7 @@ public class TestApp1{
 	}catch(Exception ex){}
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");	
 	}
-	
+*/	
 	@Test
 	public void testUnsafeIterator1(){
 	
