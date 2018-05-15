@@ -15,7 +15,7 @@ public class TestApp1{
 
 		
 		
-		
+/*		
 
 	public void testArrayDeque_UnsafeIterator(){
 	 	  Math.max(1,2);	
@@ -100,7 +100,7 @@ public class TestApp1{
 	
 	
 
-	
+*/	
 	@Test
    	public void testGetClassByAnnotation() {
         int x = 1/0;
@@ -133,7 +133,7 @@ public class TestApp1{
 		
 
 	}
-/*	
+	
 	@Test
 	public void testPrintHelloWorld2() {
 		Vector<Integer> v = new Vector<Integer>();
@@ -195,6 +195,6 @@ public class TestApp1{
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-*/	
+	
 }
 
