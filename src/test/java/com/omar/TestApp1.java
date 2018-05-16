@@ -9,13 +9,13 @@ import java.util.*;
 import java.io.*;
 import java.util.concurrent.*;
 
-//public class TestApp1 extends TestCase {
-public class TestApp1{
+public class TestApp1 extends TestCase {
+//public class TestApp1{
 
 
 		
 		
-/*		
+		
 
 	public void testArrayDeque_UnsafeIterator(){
 	 	  Math.max(1,2);	
@@ -42,7 +42,7 @@ public class TestApp1{
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-	
+/*	
 	public void testPrintHelloWorld1() {
 		Vector<Integer> v = new Vector<Integer>();
          	v.add(1);
