@@ -46,17 +46,19 @@ public class TestApp1 extends TestCase {
 	public void testPrintHelloWorld1() {
 		Vector<Integer> v = new Vector<Integer>();
          	v.add(1);
-          	v.add(2);
+          	/*	
+	  	v.add(2);
           	v.add(4);
           	v.add(8);
-  
-	        Iterator i = v.iterator();
+  		*/
+	        
+		Iterator i = v.iterator();
         	int sum = 0;
   
  	         while(i.hasNext()){
         	      sum += (Integer)i.next();
           	}
-		//System.out.println("The assertion is true");
+		System.out.println("The assertion is true");
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
