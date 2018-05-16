@@ -44,7 +44,7 @@ public class TestApp1 extends TestCase {
 	
 */	
 	public void testPrintHelloWorld1() {
-		/*
+		
 		Vector<Integer> v = new Vector<Integer>();
          	v.add(1);
           		
@@ -58,9 +58,13 @@ public class TestApp1 extends TestCase {
   
  	         while(i.hasNext()){
         	      sum += (Integer)i.next();
-          	}
+          	      sum += (Integer)i.next();
+		      sum += (Integer)i.next();
+		      sum += (Integer)i.next();
+			 
+		 }
 		System.out.println("The assertion is true");
-		*/
+		
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
