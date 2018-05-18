@@ -42,7 +42,7 @@ public class TestApp1 extends TestCase {
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-*/	
+	
 	public void testPrintHelloWorld1() {
 		
 		Vector<Integer> v = new Vector<Integer>();
@@ -68,7 +68,7 @@ public class TestApp1 extends TestCase {
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-/*
+
 	public void testPrintHelloWorld2() {
 		Vector<Integer> v = new Vector<Integer>();
          	v.add(1);
@@ -185,24 +185,29 @@ public class TestApp1 extends TestCase {
 	}catch(Exception ex){}
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");	
 	}
-	
-	@Test
-	public void testUnsafeIterator1(){
-	
-	Set<Integer> testSet = new HashSet<Integer>(); 
-        for(int i = 0; i < 10; ++i){
-            testSet.add(new Integer(i));
-        }
-        Iterator i = testSet.iterator();
-        
-        int output = 0; 
-        for(int j = 0; j < 10 && i.hasNext(); ++j){
-            output += (Integer)i.next();
-            testSet.add(new Integer(j));
-        }
-	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
-	}
 */	
+	@Test
+	public void testUnsafeIterator(){
+	
+	Set<Integer> s = new HashSet<Integer>();	
+	
+	for(int i = 0; i < 10; i++) {
+            s.add(new Integer(i));
+        }	
+		
+	Iterator iter = s.iterator();
+        int size = s.size();
+        for(int i = 0 ; i < size - 1; i++){
+            iter.next();
+        } 
+        int ele = s.size() + 1;
+        s.add(new Integer(ele));
+        iter.next();
+	
+		
+		
+	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
+	}	
 	
 }
 
