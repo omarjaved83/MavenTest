@@ -219,7 +219,7 @@ public class TestApp1 extends TestCase {
 	for(int i = 0; i < 10; i++) {
             m.put(String.valueOf(i), i);
         }	
-		
+	Set<String> keys = m.keySet();	
         Iterator iter = keys.iterator();
         int size = m.size();
         for(int i = 0 ; i < size - 1; i++){
