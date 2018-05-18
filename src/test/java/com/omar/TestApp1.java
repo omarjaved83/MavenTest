@@ -185,7 +185,7 @@ public class TestApp1 extends TestCase {
 	}catch(Exception ex){}
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");	
 	}
-*/	
+	
 	@Test
 	public void testUnsafeIterator(){
 	
@@ -208,6 +208,33 @@ public class TestApp1 extends TestCase {
 		
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}	
+	
+*/	
+	@Test
+	public void testUnsafeMapIterator(){
+	
+		
+	Map<String, Integer> m = new HashMap<String, Integer>();	
+	
+	for(int i = 0; i < 10; i++) {
+            m.put(String.valueOf(i), i);
+        }	
+		
+        Iterator iter = keys.iterator();
+        int size = m.size();
+        for(int i = 0 ; i < size - 1; i++){
+            //System.out.println(iter.next());
+            iter.next();
+        } 
+        int ele = m.size() + 1;
+        m.put(String.valueOf(ele), ele);
+        //System.out.println(iter.next());
+        iter.next();
+		
+		
+	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
+	}	
+	
 	
 }
 
