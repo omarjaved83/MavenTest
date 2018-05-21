@@ -42,7 +42,7 @@ public class TestApp1 extends TestCase {
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-	
+	*/
 	public void testPrintHelloWorld1() {
 		
 		Vector<Integer> v = new Vector<Integer>();
@@ -68,7 +68,7 @@ public class TestApp1 extends TestCase {
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-
+/*
 	public void testPrintHelloWorld2() {
 		Vector<Integer> v = new Vector<Integer>();
          	v.add(1);
@@ -185,7 +185,7 @@ public class TestApp1 extends TestCase {
 	}catch(Exception ex){}
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");	
 	}
-*/	
+	
 	@Test
 	public void testUnsafeIterator(){
 	
@@ -209,7 +209,7 @@ public class TestApp1 extends TestCase {
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}	
 	
-/*	
+	
 	@Test
 	public void testUnsafeMapIterator(){
 	
