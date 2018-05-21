@@ -216,9 +216,9 @@ public class TestApp1 extends TestCase {
 		
 	Map<String, Integer> m = new HashMap<String, Integer>();	
 	
-	for(int i = 0; i < 10; i++) {
-            m.put(String.valueOf(i), i);
-        }	
+	//for(int i = 0; i < 10; i++) {
+            m.put(String.valueOf(0), 0);
+        //}	
 	Set<String> keys = m.keySet();	
         Iterator iter = keys.iterator();
         int size = m.size();
@@ -232,7 +232,7 @@ public class TestApp1 extends TestCase {
         iter.next();
 		
 		
-	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
+	//TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}	
 	
 	
