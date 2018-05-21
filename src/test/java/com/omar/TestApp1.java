@@ -185,7 +185,7 @@ public class TestApp1 extends TestCase {
 	}catch(Exception ex){}
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");	
 	}
-	
+*/	
 	@Test
 	public void testUnsafeIterator(){
 	
@@ -209,7 +209,7 @@ public class TestApp1 extends TestCase {
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}	
 	
-*/	
+	
 	@Test
 	public void testUnsafeMapIterator(){
 	
