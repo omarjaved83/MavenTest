@@ -61,7 +61,7 @@ public class TestApp1 extends TestCase {
 		 }
 		System.out.println("The assertion is true");
 		
-		assertEquals(App.getHelloWorld(), "Hello World1");
+		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
 /*
