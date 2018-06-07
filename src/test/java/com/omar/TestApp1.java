@@ -58,6 +58,8 @@ public class TestApp1 extends TestCase {
   
  	         while(i.hasNext()){
         	      sum += (Integer)i.next();
+			 sum += (Integer)i.next();
+		      	
 		 }
 		System.out.println("The assertion is true");
 		
