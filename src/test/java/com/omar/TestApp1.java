@@ -42,7 +42,7 @@ public class TestApp1 extends TestCase {
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-	*/
+	
 	public void testPrintHelloWorld1() {
 		
 		Vector<Integer> v = new Vector<Integer>();
@@ -66,7 +66,7 @@ public class TestApp1 extends TestCase {
 		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 	
-/*
+
 	public void testPrintHelloWorld2() {
 		Vector<Integer> v = new Vector<Integer>();
          	v.add(1);
@@ -119,7 +119,7 @@ public class TestApp1 extends TestCase {
         	if(true) throw new IllegalStateException("Already connected");
     	}	
 		
-		
+*/		
 	@Test
 	public void testUnsafeIterator() {
 	
@@ -139,7 +139,7 @@ public class TestApp1 extends TestCase {
 		
 
 	}
-	
+/*	
 	@Test
 	public void testPrintHelloWorld2() {
 		Vector<Integer> v = new Vector<Integer>();
