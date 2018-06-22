@@ -231,6 +231,6 @@ public class TestApp1 extends TestCase {
 		
 	//TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}		
-	
+*/	
 }
 
