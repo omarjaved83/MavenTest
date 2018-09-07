@@ -245,7 +245,7 @@ public class TestApp1 extends TestCase {
 		    .map(String::toUpperCase)
 		    .sorted()
 		    .forEach(System.out::println);
-	
+		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	
 	}
 	
