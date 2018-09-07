@@ -8,17 +8,17 @@ public class App {
 
 	}
 
-	public static String getHelloWorld() {		
-		ArrayDeque<Integer> q = new ArrayDeque<Integer>();
-                  q.add(1);
-                  q.add(2);
-   
-                  Iterator i = q.iterator();
-  
-                  i.hasNext();
-  
-                  // The iterator is not valid anymore because the deque has been modified above.
-                  i.next();	
+	public static String getHelloWorld() {	
+		
+		Arrays.asList("Main-a1", "Main-a2", "Main-b1", "Main-c2", "Main-c1");
+
+		myList
+		    .stream()
+		    .filter(s -> s.startsWith("c"))
+		    .map(String::toUpperCase)
+		    .sorted()
+		    .forEach(System.out::println);
+		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 		return "Hello World";
 
 	}
