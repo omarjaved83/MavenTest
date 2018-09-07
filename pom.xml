@@ -13,13 +13,6 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
-	<executions>
-          <execution>
-            <goals>
-              <goal>test-jar</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
     </plugins>
   </build>
