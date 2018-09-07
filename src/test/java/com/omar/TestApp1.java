@@ -1,5 +1,6 @@
 package test.java.com.omar;
 
+import java.util.function.*;
 import main.java.com.omar.core.App;
 import junit.framework.TestCase;
 import org.junit.Test;
