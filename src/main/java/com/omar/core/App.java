@@ -37,8 +37,9 @@ public class App {
 		    .map(String::toUpperCase)
 		    .sorted()
 		    .forEach(System.out::println);
+		    */
 		return "Hello World";
-*/
+
 	}
 
 	public static String getHelloWorld2() {
