@@ -9,7 +9,7 @@ public class App {
 	}
 
 	public static String getHelloWorld() {	
-		
+		List<String> myList =
 		Arrays.asList("Main-a1", "Main-a2", "Main-b1", "Main-c2", "Main-c1");
 
 		myList
