@@ -9,6 +9,25 @@ public class App {
 	}
 
 	public static String getHelloWorld() {	
+		
+		Map<String, Integer> m = new HashMap<String, Integer>();	
+	
+		//for(int i = 0; i < 10; i++) {
+        	    m.put(String.valueOf(0), 0);
+       	 //}	
+		Set<String> keys = m.keySet();	
+        	Iterator iter = keys.iterator();
+        	int size = m.size();
+        	for(int i = 0 ; i < size - 1; i++){
+        	    //System.out.println(iter.next());
+        	    iter.next();
+       	 } 
+      	  int ele = m.size() + 1;
+      	  m.put(String.valueOf(ele), ele);
+      	  //System.out.println(iter.next());
+      	  iter.next();
+		
+		/*
 		List<String> myList =
 		Arrays.asList("Main-a1", "Main-a2", "Main-b1", "Main-c2", "Main-c1");
 
@@ -19,7 +38,7 @@ public class App {
 		    .sorted()
 		    .forEach(System.out::println);
 		return "Hello World";
-
+*/
 	}
 
 	public static String getHelloWorld2() {
