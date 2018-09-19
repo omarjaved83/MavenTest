@@ -227,7 +227,7 @@ public class TestApp1{
         int ele = m.size() + 1;
         m.put(String.valueOf(ele), ele);
         //System.out.println(iter.next());
-        iter.next();
+       // iter.next();
 		
 		
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
