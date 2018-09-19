@@ -18,7 +18,6 @@ public class App {
 		    .map(String::toUpperCase)
 		    .sorted()
 		    .forEach(System.out::println);
-		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 		return "Hello World";
 
 	}
