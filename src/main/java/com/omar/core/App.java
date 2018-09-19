@@ -38,7 +38,7 @@ public class App {
 		    .sorted()
 		    .forEach(System.out::println);
 		return "Hello World";
-
+*/
 	}
 
 	public static String getHelloWorld2() {
