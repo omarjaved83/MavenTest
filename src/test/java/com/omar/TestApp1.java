@@ -207,7 +207,7 @@ public class TestApp1{
 		
 	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}	
-		
+*/		
 	@Test
 	public void testUnsafeMapIterator(){
 	
@@ -230,9 +230,9 @@ public class TestApp1{
         iter.next();
 		
 		
-	//TestCase.assertEquals(App.getHelloWorld(), "Hello World");
+	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}		
-*/
+/*
 	
 	@Test
 	public void testLambda(){
@@ -248,7 +248,7 @@ public class TestApp1{
 		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	
 	}
-	
+*/	
 	
 }
 
