@@ -10,8 +10,8 @@ import java.util.*;
 import java.io.*;
 import java.util.concurrent.*;
 
-public class TestApp1 extends TestCase {
-//public class TestApp1{
+//public class TestApp1 extends TestCase {
+public class TestApp1{
 
 
 		
@@ -234,7 +234,7 @@ public class TestApp1 extends TestCase {
 	}		
 */
 	
-	@Test
+//	@Test
 	public void testLambda(){
 		List<String> myList =
     		Arrays.asList("a1", "a2", "b1", "c2", "c1");
