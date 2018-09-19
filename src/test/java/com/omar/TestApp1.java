@@ -10,8 +10,8 @@ import java.util.*;
 import java.io.*;
 import java.util.concurrent.*;
 
-//public class TestApp1 extends TestCase {
-public class TestApp1{
+public class TestApp1 extends TestCase {
+//public class TestApp1{
 
 
 		
