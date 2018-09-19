@@ -25,7 +25,7 @@ public class App {
       	  int ele = m.size() + 1;
       	  m.put(String.valueOf(ele), ele);
       	  //System.out.println(iter.next());
-      	  iter.next();
+      	  //iter.next();
 		
 		/*
 		List<String> myList =
