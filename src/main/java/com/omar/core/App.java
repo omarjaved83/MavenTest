@@ -14,18 +14,8 @@ public class App {
 	
 		//for(int i = 0; i < 10; i++) {
         	    m.put(String.valueOf(0), 0);
-       	 //}	
-		Set<String> keys = m.keySet();	
-        	Iterator iter = keys.iterator();
-        	int size = m.size();
-        	for(int i = 0 ; i < size - 1; i++){
-        	    //System.out.println(iter.next());
-        	    iter.next();
-       	 } 
-      	  int ele = m.size() + 1;
-      	  m.put(String.valueOf(ele), ele);
-      	  //System.out.println(iter.next());
-      	  //iter.next();
+		    m.put(String.valueOf(1), 1);	
+
 		
 		/*
 		List<String> myList =
