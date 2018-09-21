@@ -232,8 +232,9 @@ public class TestApp1{
        // iter.next();
 		
 		
-	TestCase.assertEquals(App.getHelloWorld(), "Hello World");
+	
 */
+		TestCase.assertEquals(App.getHelloWorld(), "Hello World");
 	}		
 /*
 	
