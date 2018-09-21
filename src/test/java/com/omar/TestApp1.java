@@ -213,7 +213,7 @@ public class TestApp1{
 	
 		
 	Map<String, Integer> m = new HashMap<String, Integer>();	
-	
+	m.put(String.valueOf(0), 0);
 	//for(int i = 0; i < 10; i++) {
   //          m.put(String.valueOf(0), 0);
         //}	
