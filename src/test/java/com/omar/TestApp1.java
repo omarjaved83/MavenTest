@@ -211,6 +211,13 @@ public class TestApp1{
 	@Test
 	public void testUnsafeMapIterator(){
 	
+	 List<Integer> myList = IntStream.rangeClosed(1, 10)
+				    .boxed().collect(Collectors.toList());
+
+		  			myList.stream().filter(i -> i % 2 == 0)
+		    			   .map(i -> i + 2)
+		    			   .forEach(i -> i ++ );			
+		
 		
 	Map<String, Integer> m = new HashMap<String, Integer>();	
 	m.put(String.valueOf(0), 0);
