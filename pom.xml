@@ -27,7 +27,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.stackoverflow.q3421918.Hello</mainClass>
+          <mainClass>main.java.com.omar.core.App</mainClass>
           <arguments>
             <argument>${myprop}</argument>
             <argument>${langdir}</argument>
